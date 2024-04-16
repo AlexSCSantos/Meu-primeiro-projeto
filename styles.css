@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+   }
+
+   .container   {
+
+        width: 1440px;
+        height: 900px;
+    }
+
+   .container-left {
+        display: inline-block;
+        
+   }
+
+   .container-right {
+        display: inline-block;
+        
+        position:absolute;
+        top: 321px;
+        left: 853px ;
+
+
+   }
+
+   header   {
+        color: #989D9C;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 44px;
+        margin-left: 76px;
+        
+
+   }
+
+   a{
+     margin-right: 23px;
+   }
+
+   .button1 {
+        border: none;
+        border-radius: 20.5px;
+        background: #665AE1;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+        width: 130px;
+        height: 41px;
+        margin-top: 38px;
+        margin-right: 522px;
+
+   }
+   
+   img  {
+        width: 568px;
+        height: 500px;
+        margin-top: 217px;
+        margin-left: 199px;
+   }
+
+   h1   {
+        color: #515151;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: normal;
+
+   }
+
+   h2   { 
+        color: #515151;
+        font-size: 58px;
+        font-weight: 500;
+        line-height: normal;
+
+   }
+
+   p    {
+        color: #848484;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+        margin-bottom: 65px;
+        margin-right: 146px;
+        width: 515px;
+        height: 87px;
+
+
+   }
+
+   .button2     { 
+        border: none;
+        border-radius: 30.5px;
+        background: #ADFF00;
+        color: #000000;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: normal;
+        width: 239px;
+        height: 64px;
+    }
+
+
+
+    @media screen and (max-width: 900px) {
+
+     
+  
+     .container-right {
+          display: block;
+          position: relative;
+          top: 30px;
+          left: 254px;
+     }
+  
+     header   {
+
+          display: none;
+         
+  
+     }
+  
+     
+     img  {
+          width: 354px;
+          height: 317px;
+          
+     }
+  
+     h1   {
+          width: 263px;
+          height: 52px; 
+          font-size: 50px;
+          
+     }
+  
+     h2   { 
+          width: 232px;
+          height: 37px;
+          font-size: 30px;
+          margin-top: 7px;
+          margin-left: 12px;
+
+             
+     }
+  
+     p    {
+          display: none;
+          
+  
+  
+     }
+  
+     .button2     { 
+          margin-top: 32px;
+          
+      }
+
+     
+     
+    }
+     
+    
